@@ -10,14 +10,14 @@ export default class Slider extends Component {
                     <li data-target="#carouselExampleIndicators" data-slide-to={2} />
                 </ol>
                 <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img className="d-block w-100" src="..." alt="First slide" />
+                    <div className="carousel-item active ">
+                        <img className="d-block w-100 carouselItem" src="https://graphicsfamily.com/wp-content/uploads/edd/2021/07/Professional-E-Commerce-Shoes-Banner-Design-1180x664.jpg" alt="First slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src="..." alt="Second slide" />
+                        <img className="d-block w-100 carouselItem" src="https://graphicsfamily.com/wp-content/uploads/edd/2021/07/Professional-E-Commerce-Shoes-Banner-Design-1180x664.jpg" alt="Second slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src="..." alt="Third slide" />
+                        <img className="d-block w-100 carouselItem" src="https://graphicsfamily.com/wp-content/uploads/edd/2021/07/Professional-E-Commerce-Shoes-Banner-Design-1180x664.jpg" alt="Third slide" />
                     </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -31,4 +31,4 @@ export default class Slider extends Component {
             </div>
         )
     }
-}
+};
