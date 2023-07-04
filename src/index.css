@@ -17,6 +17,7 @@ code {
 }
 .productItem {
   width: 100%;
+  margin: 45px;
 }
 .card-body {
   padding: 0 1.25rem !important;
@@ -24,4 +25,9 @@ code {
 .productImg {
   width: 200px;
   margin: auto;
+}
+.btnCart {
+  position: absolute;
+  top: 8px;
+  right: 200px;
 }

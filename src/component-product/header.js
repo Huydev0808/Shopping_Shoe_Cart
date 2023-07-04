@@ -18,9 +18,6 @@ export default class Header extends Component {
                                 <a className="nav-link text-light" href="/#">Product</a>
                             </li>                          
                         </ul>
-                        <form className="form-inline my-2 my-lg-0">
-                            <button className="btn btn-success my-2 my-sm-0" type="submit" data-toggle="modal" data-target="#modelID">Giỏ hàng</button>
-                        </form>
                     </div>
                 </nav>
             </div>
