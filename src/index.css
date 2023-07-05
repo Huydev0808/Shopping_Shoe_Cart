@@ -27,7 +27,13 @@ code {
   margin: auto;
 }
 .btnCart {
-  position: absolute;
+  position: fixed;
   top: 8px;
   right: 200px;
+  z-index: 1;
+}
+.myHeader {
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
 }
