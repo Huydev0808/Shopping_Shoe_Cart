@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.carouselItem {
+  height: 750px;
+}
+.productItem {
+  width: 100%;
+  margin: 45px;
+}
+.card-body {
+  padding: 0 1.25rem !important;
+}
+.productImg {
+  width: 200px;
+  margin: auto;
+}
+.btnCart {
+  position: fixed;
+  top: 8px;
+  right: 200px;
+  z-index: 1;
+}
+.myHeader {
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+}
